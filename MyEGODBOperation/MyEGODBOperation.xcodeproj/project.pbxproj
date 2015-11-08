@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0BACBE1BEF3C1F005AF114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BACBD1BEF3C1F005AF114 /* main.m */; };
+		9A0BACC11BEF3C1F005AF114 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BACC01BEF3C1F005AF114 /* AppDelegate.m */; };
+		9A0BACC41BEF3C1F005AF114 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BACC31BEF3C1F005AF114 /* ViewController.m */; };
+		9A0BACC71BEF3C1F005AF114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BACC51BEF3C1F005AF114 /* Main.storyboard */; };
+		9A0BACC91BEF3C1F005AF114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BACC81BEF3C1F005AF114 /* Assets.xcassets */; };
+		9A0BACCC1BEF3C1F005AF114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BACCA1BEF3C1F005AF114 /* LaunchScreen.storyboard */; };
+		9A0BACD71BEF3C1F005AF114 /* MyEGODBOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BACD61BEF3C1F005AF114 /* MyEGODBOperationTests.m */; };
+		9A0BACE21BEF3C1F005AF114 /* MyEGODBOperationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BACE11BEF3C1F005AF114 /* MyEGODBOperationUITests.m */; };
+		9A0BACFA1BEF3C39005AF114 /* EGODatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BACF11BEF3C39005AF114 /* EGODatabase.m */; settings = {ASSET_TAGS = (); }; };
+		9A0BACFB1BEF3C39005AF114 /* EGODatabaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BACF31BEF3C39005AF114 /* EGODatabaseRequest.m */; settings = {ASSET_TAGS = (); }; };
+		9A0BACFC1BEF3C39005AF114 /* EGODatabaseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BACF51BEF3C39005AF114 /* EGODatabaseResult.m */; settings = {ASSET_TAGS = (); }; };
+		9A0BACFD1BEF3C39005AF114 /* EGODatabaseRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BACF81BEF3C39005AF114 /* EGODatabaseRow.m */; settings = {ASSET_TAGS = (); }; };
+		9A0BAD031BEF3E2A005AF114 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BAD021BEF3E2A005AF114 /* UserModel.m */; settings = {ASSET_TAGS = (); }; };
+		9A0BAD071BEF3EA2005AF114 /* MyDBOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0BAD061BEF3EA2005AF114 /* MyDBOperation.m */; settings = {ASSET_TAGS = (); }; };
+		9A0BAD091BEF3EB9005AF114 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0BAD081BEF3EB9005AF114 /* libsqlite3.0.tbd */; };
+		9A0BAD0F1BEF4229005AF114 /* userDB.rdb in Resources */ = {isa = PBXBuildFile; fileRef = 9A0BAD0E1BEF4229005AF114 /* userDB.rdb */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A0BACD31BEF3C1F005AF114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0BACB11BEF3C1E005AF114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A0BACB81BEF3C1F005AF114;
+			remoteInfo = MyEGODBOperation;
+		};
+		9A0BACDE1BEF3C1F005AF114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0BACB11BEF3C1E005AF114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A0BACB81BEF3C1F005AF114;
+			remoteInfo = MyEGODBOperation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A0BACB91BEF3C1F005AF114 /* MyEGODBOperation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEGODBOperation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0BACBD1BEF3C1F005AF114 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A0BACBF1BEF3C1F005AF114 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A0BACC01BEF3C1F005AF114 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A0BACC21BEF3C1F005AF114 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A0BACC31BEF3C1F005AF114 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A0BACC61BEF3C1F005AF114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A0BACC81BEF3C1F005AF114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A0BACCB1BEF3C1F005AF114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A0BACCD1BEF3C1F005AF114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0BACD21BEF3C1F005AF114 /* MyEGODBOperationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEGODBOperationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0BACD61BEF3C1F005AF114 /* MyEGODBOperationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyEGODBOperationTests.m; sourceTree = "<group>"; };
+		9A0BACD81BEF3C1F005AF114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0BACDD1BEF3C1F005AF114 /* MyEGODBOperationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyEGODBOperationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0BACE11BEF3C1F005AF114 /* MyEGODBOperationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyEGODBOperationUITests.m; sourceTree = "<group>"; };
+		9A0BACE31BEF3C1F005AF114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0BACF01BEF3C39005AF114 /* EGODatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabase.h; sourceTree = "<group>"; };
+		9A0BACF11BEF3C39005AF114 /* EGODatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabase.m; sourceTree = "<group>"; };
+		9A0BACF21BEF3C39005AF114 /* EGODatabaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseRequest.h; sourceTree = "<group>"; };
+		9A0BACF31BEF3C39005AF114 /* EGODatabaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabaseRequest.m; sourceTree = "<group>"; };
+		9A0BACF41BEF3C39005AF114 /* EGODatabaseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseResult.h; sourceTree = "<group>"; };
+		9A0BACF51BEF3C39005AF114 /* EGODatabaseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabaseResult.m; sourceTree = "<group>"; };
+		9A0BACF61BEF3C39005AF114 /* EGODatabaseResult_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseResult_Internal.h; sourceTree = "<group>"; };
+		9A0BACF71BEF3C39005AF114 /* EGODatabaseRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseRow.h; sourceTree = "<group>"; };
+		9A0BACF81BEF3C39005AF114 /* EGODatabaseRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGODatabaseRow.m; sourceTree = "<group>"; };
+		9A0BACF91BEF3C39005AF114 /* EGODatabaseRow_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGODatabaseRow_Internal.h; sourceTree = "<group>"; };
+		9A0BAD011BEF3E2A005AF114 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		9A0BAD021BEF3E2A005AF114 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		9A0BAD051BEF3EA2005AF114 /* MyDBOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDBOperation.h; sourceTree = "<group>"; };
+		9A0BAD061BEF3EA2005AF114 /* MyDBOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDBOperation.m; sourceTree = "<group>"; };
+		9A0BAD081BEF3EB9005AF114 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9A0BAD0E1BEF4229005AF114 /* userDB.rdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = userDB.rdb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A0BACB61BEF3C1F005AF114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0BAD091BEF3EB9005AF114 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0BACCF1BEF3C1F005AF114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0BACDA1BEF3C1F005AF114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A0BACB01BEF3C1E005AF114 = {
+			isa = PBXGroup;
+			children = (
+				9A0BAD081BEF3EB9005AF114 /* libsqlite3.0.tbd */,
+				9A0BACBB1BEF3C1F005AF114 /* MyEGODBOperation */,
+				9A0BACD51BEF3C1F005AF114 /* MyEGODBOperationTests */,
+				9A0BACE01BEF3C1F005AF114 /* MyEGODBOperationUITests */,
+				9A0BACBA1BEF3C1F005AF114 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A0BACBA1BEF3C1F005AF114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BACB91BEF3C1F005AF114 /* MyEGODBOperation.app */,
+				9A0BACD21BEF3C1F005AF114 /* MyEGODBOperationTests.xctest */,
+				9A0BACDD1BEF3C1F005AF114 /* MyEGODBOperationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A0BACBB1BEF3C1F005AF114 /* MyEGODBOperation */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BACEF1BEF3C39005AF114 /* Classes */,
+				9A0BAD001BEF3E0C005AF114 /* UserModel */,
+				9A0BAD041BEF3E73005AF114 /* UserDB */,
+				9A0BACBF1BEF3C1F005AF114 /* AppDelegate.h */,
+				9A0BACC01BEF3C1F005AF114 /* AppDelegate.m */,
+				9A0BACC21BEF3C1F005AF114 /* ViewController.h */,
+				9A0BACC31BEF3C1F005AF114 /* ViewController.m */,
+				9A0BACC51BEF3C1F005AF114 /* Main.storyboard */,
+				9A0BACC81BEF3C1F005AF114 /* Assets.xcassets */,
+				9A0BACCA1BEF3C1F005AF114 /* LaunchScreen.storyboard */,
+				9A0BACCD1BEF3C1F005AF114 /* Info.plist */,
+				9A0BACBC1BEF3C1F005AF114 /* Supporting Files */,
+			);
+			path = MyEGODBOperation;
+			sourceTree = "<group>";
+		};
+		9A0BACBC1BEF3C1F005AF114 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BACBD1BEF3C1F005AF114 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A0BACD51BEF3C1F005AF114 /* MyEGODBOperationTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BACD61BEF3C1F005AF114 /* MyEGODBOperationTests.m */,
+				9A0BACD81BEF3C1F005AF114 /* Info.plist */,
+			);
+			path = MyEGODBOperationTests;
+			sourceTree = "<group>";
+		};
+		9A0BACE01BEF3C1F005AF114 /* MyEGODBOperationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BACE11BEF3C1F005AF114 /* MyEGODBOperationUITests.m */,
+				9A0BACE31BEF3C1F005AF114 /* Info.plist */,
+			);
+			path = MyEGODBOperationUITests;
+			sourceTree = "<group>";
+		};
+		9A0BACEF1BEF3C39005AF114 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BACF01BEF3C39005AF114 /* EGODatabase.h */,
+				9A0BACF11BEF3C39005AF114 /* EGODatabase.m */,
+				9A0BACF21BEF3C39005AF114 /* EGODatabaseRequest.h */,
+				9A0BACF31BEF3C39005AF114 /* EGODatabaseRequest.m */,
+				9A0BACF41BEF3C39005AF114 /* EGODatabaseResult.h */,
+				9A0BACF51BEF3C39005AF114 /* EGODatabaseResult.m */,
+				9A0BACF61BEF3C39005AF114 /* EGODatabaseResult_Internal.h */,
+				9A0BACF71BEF3C39005AF114 /* EGODatabaseRow.h */,
+				9A0BACF81BEF3C39005AF114 /* EGODatabaseRow.m */,
+				9A0BACF91BEF3C39005AF114 /* EGODatabaseRow_Internal.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9A0BAD001BEF3E0C005AF114 /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BAD011BEF3E2A005AF114 /* UserModel.h */,
+				9A0BAD021BEF3E2A005AF114 /* UserModel.m */,
+			);
+			name = UserModel;
+			sourceTree = "<group>";
+		};
+		9A0BAD041BEF3E73005AF114 /* UserDB */ = {
+			isa = PBXGroup;
+			children = (
+				9A0BAD051BEF3EA2005AF114 /* MyDBOperation.h */,
+				9A0BAD061BEF3EA2005AF114 /* MyDBOperation.m */,
+				9A0BAD0E1BEF4229005AF114 /* userDB.rdb */,
+			);
+			name = UserDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A0BACB81BEF3C1F005AF114 /* MyEGODBOperation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0BACE61BEF3C1F005AF114 /* Build configuration list for PBXNativeTarget "MyEGODBOperation" */;
+			buildPhases = (
+				9A0BACB51BEF3C1F005AF114 /* Sources */,
+				9A0BACB61BEF3C1F005AF114 /* Frameworks */,
+				9A0BACB71BEF3C1F005AF114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyEGODBOperation;
+			productName = MyEGODBOperation;
+			productReference = 9A0BACB91BEF3C1F005AF114 /* MyEGODBOperation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A0BACD11BEF3C1F005AF114 /* MyEGODBOperationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0BACE91BEF3C1F005AF114 /* Build configuration list for PBXNativeTarget "MyEGODBOperationTests" */;
+			buildPhases = (
+				9A0BACCE1BEF3C1F005AF114 /* Sources */,
+				9A0BACCF1BEF3C1F005AF114 /* Frameworks */,
+				9A0BACD01BEF3C1F005AF114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0BACD41BEF3C1F005AF114 /* PBXTargetDependency */,
+			);
+			name = MyEGODBOperationTests;
+			productName = MyEGODBOperationTests;
+			productReference = 9A0BACD21BEF3C1F005AF114 /* MyEGODBOperationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A0BACDC1BEF3C1F005AF114 /* MyEGODBOperationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0BACEC1BEF3C1F005AF114 /* Build configuration list for PBXNativeTarget "MyEGODBOperationUITests" */;
+			buildPhases = (
+				9A0BACD91BEF3C1F005AF114 /* Sources */,
+				9A0BACDA1BEF3C1F005AF114 /* Frameworks */,
+				9A0BACDB1BEF3C1F005AF114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0BACDF1BEF3C1F005AF114 /* PBXTargetDependency */,
+			);
+			name = MyEGODBOperationUITests;
+			productName = MyEGODBOperationUITests;
+			productReference = 9A0BACDD1BEF3C1F005AF114 /* MyEGODBOperationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A0BACB11BEF3C1E005AF114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "陈勇";
+				TargetAttributes = {
+					9A0BACB81BEF3C1F005AF114 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					9A0BACD11BEF3C1F005AF114 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9A0BACB81BEF3C1F005AF114;
+					};
+					9A0BACDC1BEF3C1F005AF114 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9A0BACB81BEF3C1F005AF114;
+					};
+				};
+			};
+			buildConfigurationList = 9A0BACB41BEF3C1F005AF114 /* Build configuration list for PBXProject "MyEGODBOperation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A0BACB01BEF3C1E005AF114;
+			productRefGroup = 9A0BACBA1BEF3C1F005AF114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A0BACB81BEF3C1F005AF114 /* MyEGODBOperation */,
+				9A0BACD11BEF3C1F005AF114 /* MyEGODBOperationTests */,
+				9A0BACDC1BEF3C1F005AF114 /* MyEGODBOperationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A0BACB71BEF3C1F005AF114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0BACCC1BEF3C1F005AF114 /* LaunchScreen.storyboard in Resources */,
+				9A0BAD0F1BEF4229005AF114 /* userDB.rdb in Resources */,
+				9A0BACC91BEF3C1F005AF114 /* Assets.xcassets in Resources */,
+				9A0BACC71BEF3C1F005AF114 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0BACD01BEF3C1F005AF114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0BACDB1BEF3C1F005AF114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A0BACB51BEF3C1F005AF114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0BACFB1BEF3C39005AF114 /* EGODatabaseRequest.m in Sources */,
+				9A0BAD071BEF3EA2005AF114 /* MyDBOperation.m in Sources */,
+				9A0BACFA1BEF3C39005AF114 /* EGODatabase.m in Sources */,
+				9A0BACC41BEF3C1F005AF114 /* ViewController.m in Sources */,
+				9A0BACFD1BEF3C39005AF114 /* EGODatabaseRow.m in Sources */,
+				9A0BACC11BEF3C1F005AF114 /* AppDelegate.m in Sources */,
+				9A0BACBE1BEF3C1F005AF114 /* main.m in Sources */,
+				9A0BAD031BEF3E2A005AF114 /* UserModel.m in Sources */,
+				9A0BACFC1BEF3C39005AF114 /* EGODatabaseResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0BACCE1BEF3C1F005AF114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0BACD71BEF3C1F005AF114 /* MyEGODBOperationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0BACD91BEF3C1F005AF114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0BACE21BEF3C1F005AF114 /* MyEGODBOperationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A0BACD41BEF3C1F005AF114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A0BACB81BEF3C1F005AF114 /* MyEGODBOperation */;
+			targetProxy = 9A0BACD31BEF3C1F005AF114 /* PBXContainerItemProxy */;
+		};
+		9A0BACDF1BEF3C1F005AF114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A0BACB81BEF3C1F005AF114 /* MyEGODBOperation */;
+			targetProxy = 9A0BACDE1BEF3C1F005AF114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A0BACC51BEF3C1F005AF114 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0BACC61BEF3C1F005AF114 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A0BACCA1BEF3C1F005AF114 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0BACCB1BEF3C1F005AF114 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A0BACE41BEF3C1F005AF114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A0BACE51BEF3C1F005AF114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A0BACE71BEF3C1F005AF114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyEGODBOperation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.MyEGODBOperation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0BACE81BEF3C1F005AF114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyEGODBOperation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.MyEGODBOperation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0BACEA1BEF3C1F005AF114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyEGODBOperationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.MyEGODBOperationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyEGODBOperation.app/MyEGODBOperation";
+			};
+			name = Debug;
+		};
+		9A0BACEB1BEF3C1F005AF114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyEGODBOperationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.MyEGODBOperationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyEGODBOperation.app/MyEGODBOperation";
+			};
+			name = Release;
+		};
+		9A0BACED1BEF3C1F005AF114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyEGODBOperationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.MyEGODBOperationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyEGODBOperation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9A0BACEE1BEF3C1F005AF114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyEGODBOperationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cy.MyEGODBOperationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyEGODBOperation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A0BACB41BEF3C1F005AF114 /* Build configuration list for PBXProject "MyEGODBOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0BACE41BEF3C1F005AF114 /* Debug */,
+				9A0BACE51BEF3C1F005AF114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0BACE61BEF3C1F005AF114 /* Build configuration list for PBXNativeTarget "MyEGODBOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0BACE71BEF3C1F005AF114 /* Debug */,
+				9A0BACE81BEF3C1F005AF114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A0BACE91BEF3C1F005AF114 /* Build configuration list for PBXNativeTarget "MyEGODBOperationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0BACEA1BEF3C1F005AF114 /* Debug */,
+				9A0BACEB1BEF3C1F005AF114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A0BACEC1BEF3C1F005AF114 /* Build configuration list for PBXNativeTarget "MyEGODBOperationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0BACED1BEF3C1F005AF114 /* Debug */,
+				9A0BACEE1BEF3C1F005AF114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A0BACB11BEF3C1E005AF114 /* Project object */;
+}
